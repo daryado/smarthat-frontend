@@ -1,0 +1,31 @@
+{
+  //"extends": "expo/tsconfig.base",
+  /*"extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "strict": true
+  },*/
+
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "react-native",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": {
+      "~components": ["/app/components"],
+      "~graphql": ["src/graphql"],
+      "~graphql*//*": ["src/graphql*//*"],
+      "~themes": ["src/themes"],
+      "~store*//*": ["src/store*//*"],
+      "~store": ["src/store"],
+      "~reducers*//*": ["src/store/reducers*//*"],
+      "~reducers": ["src/store/reducers"],
+      "~views*//*": ["src/views*//*"],
+      "~services*//*": ["src/services*//*"],
+      "~assets*//*": ["src/assets*//*"],
+      "~images*//*": ["src/assets/images*//*"],
+      "~animations*//*": ["src/assets/animations*//*"],
+      "~src*//*": ["src*//*"]
+    }
+  }
+}
