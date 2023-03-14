@@ -14,10 +14,10 @@ The one with the most points wins.
 
 ### Screens
 
-![](/img/start.png)
+![](/img/start.jpg)
 
-![](/img/create.png)
+![](/img/create.jpg)
 
-![](/img/guess.png)
+![](/img/guess.jpg)
 
 (public version of the private repository)
