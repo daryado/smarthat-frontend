@@ -11,7 +11,8 @@ Feature: Target on the guessing game screen displays semantic proximity of respo
 After the word has been guessed, the presenter explains the meaning of the next and so on until the time runs out. The leader can "Skip" the word or press "The word is right" and choose the participant who gave the right answer.
 
 The one with the most points wins.
-
+### Used
+React Native, Expo, TypeScript, Redux, Axios
 ### Screens
 
 <img src="img/start.jpg" width="30%"> <img src="img/create.jpg" width="30%"> <img src="img/guess.jpg" width="30%">
