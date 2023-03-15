@@ -17,4 +17,4 @@ React Native, Expo, TypeScript, Redux, Axios
 
 <img src="img/start.jpg" width="30%"> <img src="img/create.jpg" width="30%"> <img src="img/guess.jpg" width="30%">
 
-(public version of the private repository)
+(public safe version of the private repository)
